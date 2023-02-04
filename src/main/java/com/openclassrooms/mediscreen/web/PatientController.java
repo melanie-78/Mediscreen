@@ -52,7 +52,7 @@ public class PatientController {
     }
 
     @DeleteMapping("/patient/delete/{id}")
-    public void deletePatient(@PathVariable Integer id){
+    public void deletePatient(@PathVariable Integer id) throws PatientNotFoundException {
         patientService.deletePatient(id);
     }
 }

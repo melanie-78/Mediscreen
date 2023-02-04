@@ -12,7 +12,7 @@ public interface PatientService {
     PatientDTO updatePatient(Integer id, PatientDTO patientDTO) throws PatientNotFoundException;
     PatientDTO addPatient(PatientDTO patientDTO);
 
-    void deletePatient(Integer id);
+    void deletePatient(Integer id) throws PatientNotFoundException;
 
     List<PatientDTO> searchPatient(String keyword);
 }
