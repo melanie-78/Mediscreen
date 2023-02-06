@@ -1,16 +1,13 @@
 package com.openclassrooms.mediscreen.web;
 
 import com.openclassrooms.mediscreen.exceptions.PatientNotFoundException;
-import com.openclassrooms.mediscreen.entities.Patient;
 import com.openclassrooms.mediscreen.services.PatientService;
 import com.openclassrooms.mediscreen.dtos.PatientDTO;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.validation.Valid;
-import java.net.URI;
 import java.util.List;
 
 @RestController
