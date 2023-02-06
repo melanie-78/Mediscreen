@@ -1,6 +1,5 @@
 package com.openclassrooms.mediscreen.entities;
 
-import com.openclassrooms.mediscreen.enums.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,7 +7,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
-import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
