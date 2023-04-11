@@ -9,7 +9,7 @@ The project therefore consists of creating four microservices.
 - The microservice called mediscreen that will store patient demographics
 - The microservice called mediscreen-notes which will manage the notes issued by doctors for patients
 - The microservice called mediscreen-report which will generate a kind of report on the probability of developing diabetes by a patient
-- The front microservice that will serve as the user interface
+- The front microservice that will serve as the user interface called mediscreen-web
 
 ## Technical:
 
@@ -31,5 +31,5 @@ The project therefore consists of creating four microservices.
 4. Use MySQL as configuration in application.properties
 
 ## Write Unit Test
-1. Create unit test and place in package com.openclassrooms.Mediscreen in folder test > java
+1. Create unit test and place in package com.openclassrooms.mediscreen in folder test > java
 2. Execute unit test by the command mvn test
